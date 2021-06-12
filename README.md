@@ -55,8 +55,17 @@ In both we compare very and not at all concerned people
 
 In 4.4 we present the total number of interviews aggregated by grade in a pie chart
 
-In 4.5 we create many transformations to achieve the exercise, need to create a new columns for punctuation and after used this new column for filtering dataset with the condition of higher than 1.5
+For exercise_four.py execution, you need to open Terminal and write py exercise_four.py
 
-After the function eleborate several calculations and store it in variables and finally present all those in a bar chart also filtring by data '2020-09-01', and comparing the evolution of people concern
+**Exercise five**
+
+Exercise_five.py is a Python function that xecute a lot of transformations from initial exercise 4 dataset
+
+The main transformations made:
+1. Create a new columns for punctuation
+2. Used this new column for filtering dataset with the condition of higher than 1.5
+3. After the function eleborate several calculations and store it in variables and finally present all those in a bar chart also filtring by data '2020-09-01', and comparing the evolution of people concern
+
+For exercise_five.py execution, you need to open Terminal and write py exercise_five.py
 
 

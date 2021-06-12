@@ -21,7 +21,7 @@ if __name__ == "__main__":
     ratings = pd.read_excel('../data/pollster_ratings.xlsx', engine = 'openpyxl')
     ratings.rename(columns={'Pollster':'pollster'}, inplace=True)
 
-    # We have to follow request made in Exercis 2
+    # We have to follow request made in Exercise 2
     # Excluse approval polls without rating joining both
     # Filter using tracking column value like False and Banned by 538 like no
     approvals = pd.merge(approval, ratings, on='pollster')
@@ -30,7 +30,7 @@ if __name__ == "__main__":
 
     approvals.to_csv('../data/exercise_three.csv')
 
-    # We have to follow request made in Exercis 2
+    # We have to follow request made in Exercise 2
     # Excluse approval polls without rating joining both
     # Filter using tracking column value like False and Banned by 538 like no
     concerns = pd.merge(concern, ratings, on='pollster')

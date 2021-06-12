@@ -30,8 +30,9 @@ def pattern_count(pattern1, pattern2):
     f.close
     # The pattern Huffington_Post appears X times.
     # The pattern url_pdf appears Y times.
-    print('The pattern number 1 appears', countHuffington, 'times')
-    print('The pattern number 2 appears', countUrl, 'times')
+    print('The pattern Huffington_Post appears', countHuffington, 'times')
+    print('The pattern url_pdf appears', countUrl, 'times')
+    
    
 if __name__ == "__main__":
    

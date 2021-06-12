@@ -48,6 +48,7 @@ if __name__ == "__main__":
         for match in re.finditer(patternUrl, linea):
             countUrl+=1
     f.close
+    
     # The pattern Huffington_Post appears X times.
     # The pattern url_pdf appears Y times.
     print('The pattern Huffington_Post appears', countHuffington, 'times')
